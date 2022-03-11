@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "5.0.0-4",
+    "add": "^2.0.6",
+    "vee-validate": "^4.5.10",
+    "yarn": "^1.22.17",
+    "yup": "^0.32.11"
+  }
+}

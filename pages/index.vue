@@ -116,7 +116,7 @@ onMounted(() => {
   connect();
 });
 </script>
-<style>
+<style lang="postcss ">
 .btn {
   @apply text-base font-medium rounded-lg p-3;
 }
